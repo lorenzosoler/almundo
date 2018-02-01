@@ -1,6 +1,19 @@
 <div class="container">
-  <div class="row head">
-      Filtro
+  <div class="head">
+      Filtros
   </div>
+  <ngb-accordion #acc="ngbAccordion">
+    <ngb-panel id="toggle-1" title="Nombre de hotel">
+      <ng-template ngbPanelContent>
+        <input class="nombre-hotel text" type="text">
+        <input class="nombre-hotel button" type="button" value="Aceptar">
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel id="toggle-2" title="Estrellas">
+      <ng-template ngbPanelContent>
+
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
 </div>
 

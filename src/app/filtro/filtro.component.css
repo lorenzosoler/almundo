@@ -1,3 +1,21 @@
 .head {
     background: white;
+    padding: 8px 16px;
+}
+
+.nombre-hotel {
+    display: inline-block;
+}
+
+.text {
+    width: 120px;
+}
+
+.button {
+    background: #0f0f88;
+    color: white;
+}
+
+.card {
+    background: white !important;
 }
